@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "lock_id": "FC-S2-R0-20260921",
+  "locked_at_utc": "2026-09-21T16:00:52Z",
+  "forecast_type": "subjective categorical prior",
+  "target": "The next substantive user reply under the original prepublication board",
+  "probabilities": {
+    "exact_1": 0.8,
+    "exact_0": 0.1,
+    "null": 0.1
+  },
+  "resolution": {
+    "status": "RESOLVED",
+    "outcome": "NULL",
+    "evidence_class": "non_binary_clarification_question",
+    "external_action": false
+  },
+  "integrity_note": "The original target repository was nonexistent and unverified. The round remains NULL and is not rewritten as a successful binary exchange.",
+  "conditional_forecasts": {
+    "shared_branch_interpretation_given_valid_bit": {
+      "p": 0.98,
+      "status": "NOT_RESOLVED"
+    },
+    "publication_success_given_1": {
+      "p": 0.9,
+      "status": "NOT_SCORED",
+      "reason": "The original target was invalid and the condition was not met in that round."
+    }
+  },
+  "next_round": {
+    "status": "UNLOCKED",
+    "reason": "A new counterparty, proposition, horizon, and resolution rule must be declared before new probabilities are locked."
+  }
+}
