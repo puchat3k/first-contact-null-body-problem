@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "receipt_id": "FC-S2-START-20260921T161135Z",
+  "game": "First Contact: Null Body Problem",
+  "season": 2,
+  "action": "publish_starting_board",
+  "authorization": "explicit_user_directive",
+  "repository": "puchat3k/first-contact-null-body-problem",
+  "requested_files": [
+    "README.md",
+    "PROJECT_DESCRIPTION.md",
+    "board-state.json",
+    "priors-lock.json",
+    "receipts/season-2-start.json"
+  ],
+  "game_scoring": "NOT_SCORED_AS_BINARY_ROUND",
+  "reason": "This instruction authorizes publication of the corrected starting board. It does not retroactively change the earlier NULL result.",
+  "created_at_utc": "2026-09-21T16:11:35Z",
+  "outcome": "AUTHORIZED_FOR_PUBLICATION",
+  "commit_evidence": "Recorded by the GitHub commit history containing this receipt."
+}
