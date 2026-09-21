@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "game": "First Contact: Null Body Problem",
+  "season": 2,
+  "edition": "Light Forest",
+  "repository": "puchat3k/first-contact-null-body-problem",
+  "visibility": "public",
+  "state": "STARTING_BOARD_PUBLISHED",
+  "communication_domain": "negotiation_and_communication",
+  "scale_model": [
+    "bit",
+    "packet",
+    "dyad",
+    "group",
+    "network",
+    "institution",
+    "population",
+    "first_contact"
+  ],
+  "starting_scale": "bit",
+  "hop_budget": 1,
+  "transmitted_symbols": [0, 1],
+  "outcome_states": [
+    "LIGHT",
+    "SHADE",
+    "NULL"
+  ],
+  "codebook": {
+    "1": "LIGHT: execute only the precommitted bounded action",
+    "0": "SHADE: hold without external action",
+    "NULL": "No valid shared signal or meaning was established; do not infer permission"
+  },
+  "alignment_definition": "Enough shared operational meaning to execute or reject one bounded action predictably without granting broader authority.",
+  "rules": [
+    "Ambiguity never grants permission.",
+    "Probability never becomes authority.",
+    "A signal is not proof of identity or intent.",
+    "Unknown stays unknown until evidence changes it.",
+    "Every round preserves its priors, evidence, result, and correction history."
+  ],
+  "prior_round": {
+    "state": "NULL",
+    "reason": "The proposed repository target did not exist and had not been verified writable.",
+    "external_action": false
+  },
+  "publication_authority": {
+    "status": "AUTHORIZED",
+    "source": "explicit user directive",
+    "scope": "Publish the README, project description, starting board state, prior lock, and publication receipt to this repository."
+  },
+  "published_at_utc": "2026-09-21T16:11:35Z"
+}
