@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "receipt_id": "FC-S2-PUBLISH-20260921T161323Z",
+  "game": "First Contact: Null Body Problem",
+  "season": 2,
+  "repository": "puchat3k/first-contact-null-body-problem",
+  "visibility": "public",
+  "action": "publish_starting_board",
+  "outcome": "PUBLISHED",
+  "published_at_utc": "2026-09-21T16:13:23Z",
+  "files": [
+    {
+      "path": "README.md",
+      "commit_sha": "15c57d7a8c98e2f87964b2fb081922ed96e9ebf4"
+    },
+    {
+      "path": "PROJECT_DESCRIPTION.md",
+      "commit_sha": "147d6261c7216510475b7ffa83e683861ebdb850"
+    },
+    {
+      "path": "board-state.json",
+      "commit_sha": "dac6b68ad40c5329609e85961c65b1921ab3ffd8"
+    },
+    {
+      "path": "priors-lock.json",
+      "commit_sha": "cae5d7b8af0fbe403aa41ec1def8e7147cb4f6ee"
+    },
+    {
+      "path": "receipts/season-2-start.json",
+      "commit_sha": "bcd48821d163feb9b7ff1b1b28fe47f6c3b5c7be"
+    }
+  ],
+  "integrity": {
+    "prior_round_preserved_as": "NULL",
+    "retroactive_probability_edit": false,
+    "unauthorized_external_actions": 0
+  },
+  "unresolved": [
+    "The repository About description metadata was not changed; the approved description is published in PROJECT_DESCRIPTION.md."
+  ]
+}
